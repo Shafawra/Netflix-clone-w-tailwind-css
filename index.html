@@ -6,6 +6,7 @@
     <title>Netflix w tailwind</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="tailwind.config.js">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body class="bg-black text-white" >
@@ -14,7 +15,7 @@
             <!-- overlay -->
             <div class="absolute inset-0 bg-black/70">
                 <!-- navigasi -->
-                <nav>
+                <nav class="sticky top-0 z-50">
                     <div class="relative container flex items-center m-auto justify-between py-5">
                         <!-- logo -->
                         <img class="w-26" src="img/netflixlogo-removebg-preview.png" alt="logo">
@@ -35,15 +36,35 @@
                 </nav>
 
                 <!-- hero-section -->
-                <div class="border border-red-50  max-w-xl m-auto flex flex-col items-center p-5 text-center">
-                    <h1 class="text-4xl font-extrabold">Film, acara TV tak terbatas, dan banyak lagi</h1>
-                    <p>Harga mulai dari Rp54.000. Batalkan kapan pun.</p>
-                    <p>Siap menonton? Masukkan email untuk membuat atau memulai lagi keanggotaanmu.</p>
-                    <div class="">
-                        <input type="email" placeholder="Alamat email">
-                        <button>Mulai<i class="fa-solid fa-chevron-right"></i></button>
-                    </div>
+                <div class=" m-auto  max-w-xl flex flex-col items-center p-5 text-center h-full justify-center">
+                    <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold my-1">Film, acara TV tak terbatas, dan banyak lagi</h1>
+                    <p class="my-1">Harga mulai dari Rp54.000. Batalkan kapan pun.</p>
+                    <p class="my-1">Siap menonton? Masukkan email untuk membuat atau memulai lagi keanggotaanmu.</p>
+                    <form class="m-1 flex flex-col gap-4 sm:flex-row">
+                        <input class="border rounded-sm px-8 py-4" type="email" placeholder="Alamat email">
+                        <button class="px-6 py-2 rounded-md bg-red-600 hover:bg-red-700 transition">Mulai <i class="fa-solid fa-chevron-right"></i></button>
+                    </form>
                 </div>
+
+                <!-- card-movie -->
+                <div class="">
+                    <h1>Sedang Tren Sekarang</h1>
+                    <button class="prev">&#10094;</button>
+                    <div class="movie-row flex gap-5 overflow-hidden overflow-x-auto ">
+                        <img class="w-60 object-cover rounded-3xl" src="https://i.pinimg.com/736x/0a/fa/84/0afa84b6393d82d8c7ee6f9f1a08173f.jpg" alt="">
+                        <img class="w-60 object-cover rounded-3xl" src="https://i.pinimg.com/736x/35/2f/a5/352fa5c3beeb45979a07ca7245bfc95c.jpg" alt="">
+                        <img class="w-60 object-cover rounded-3xl" src="https://i.pinimg.com/736x/5f/1b/1b/5f1b1b2cfd9dbdf78a374ae2399c2343.jpg" alt="">
+                        <img class="w-60 object-cover rounded-3xl" src="https://i.pinimg.com/736x/e5/e8/e8/e5e8e839a7ad8b489fe5497003321139.jpg" alt="">
+                        <img class="w-60 object-cover rounded-3xl" src="https://i.pinimg.com/736x/93/f1/0d/93f10d43d33a28f5ceefb0b66c23fdd7.jpg" alt="">
+                        <img class="w-60 object-cover rounded-3xl" src="https://i.pinimg.com/736x/9e/ea/bb/9eeabb14bcd8302a482e659195b17e4e.jpg" alt="">
+                        <img class="w-60 object-cover rounded-3xl" src="https://i.pinimg.com/736x/c5/87/98/c58798e9ea437d676cf708434edf50e5.jpg" alt="">
+                        <img class="w-60 object-cover rounded-3xl" src="https://i.pinimg.com/736x/64/3b/fd/643bfd6161a1c268e2c6b81226489763.jpg" alt="">
+                        <img class="w-60 object-cover rounded-3xl" src="https://i.pinimg.com/736x/b4/15/35/b415351f7118bb18be83ce62d408d65b.jpg" alt="">
+                        <img class="w-60 object-cover rounded-3xl" src="https://i.pinimg.com/736x/02/0a/c2/020ac20ab8a2969d393665253dc5c595.jpg" alt="">
+                    </div>
+                    <button class="next">&#10095;</button>
+                </div>
+
             </div>
     </div>
 
