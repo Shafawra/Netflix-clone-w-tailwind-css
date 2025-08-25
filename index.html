@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix w tailwind</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="tailwind.config.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body class="bg-black text-white" >
+    <!-- wrapper -->
+    <div class="relative h-screen bg-[url('https://i.pinimg.com/1200x/19/8b/2f/198b2f01e73b905772279616eccc7c65.jpg')] bg-center bg-cover">
+            <!-- overlay -->
+            <div class="absolute inset-0 bg-black/70">
+                <!-- navigasi -->
+                <nav>
+                    <div class="relative container flex items-center m-auto justify-between py-5">
+                        <!-- logo -->
+                        <img class="w-26" src="img/netflixlogo-removebg-preview.png" alt="logo">
+                        <!-- right side-->
+                        <div class="flex gap-4 text-white">
+                            <div class="gap-2 border rounded-md px-3 py-2 bg-black/40 focus:outline-white">
+                                <i class="fa-solid fa-globe"></i>
+                                <select class="bg-transparent outline-none border-none">
+                                    <option class="text-black" value="id">Bahasa Indonesia</option>
+                                    <option class="text-black" value="en">English</option>
+                                    <option class="text-black" value="jp">日本語</option>
+                                    <option class="text-black" value="kr">한국어</option>
+                                </select>
+                            </div>
+                            <button class="bg-red-600 px-4 py-2 rounded-md hover:bg-red-700 transition">Masuk</button>
+                        </div>
+                    </div>
+                </nav>
+
+                <!-- hero-section -->
+                <div class="border border-red-50  max-w-xl m-auto flex flex-col items-center p-5 text-center">
+                    <h1 class="text-4xl font-extrabold">Film, acara TV tak terbatas, dan banyak lagi</h1>
+                    <p>Harga mulai dari Rp54.000. Batalkan kapan pun.</p>
+                    <p>Siap menonton? Masukkan email untuk membuat atau memulai lagi keanggotaanmu.</p>
+                    <div class="">
+                        <input type="email" placeholder="Alamat email">
+                        <button>Mulai<i class="fa-solid fa-chevron-right"></i></button>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+</body>
+</html>
