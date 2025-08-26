@@ -2,3 +2,10 @@
     scroll-behavior: smooth;
     scrollbar-width: none;
 }
+
+.prev,
+.next {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
