@@ -3,7 +3,7 @@ Netflix clone sederhana menggunakan HTML, Tailwind CSS, dan JavaScript.   Belaja
 
 ## Disclaimer
 Project ini dibuat **hanya untuk keperluan belajar dan latihan**
-Terinspirasi dari web netflix url(https://www.netflix.com/id/)
+Terinspirasi dari web netflix [Netflix](https://www.netflix.com/id/)
 Semua kode ditulis ulang dan dimodifikasi sesuai pemahaman pribadi.
 
 ## Tentang Project
