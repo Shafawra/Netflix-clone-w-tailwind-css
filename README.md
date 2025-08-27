@@ -18,3 +18,12 @@ Project ini dibuat untuk melatih skill **HTML, CSS, dan JavaScript** dengan memb
 - **HTML5**
 - **CSS3**
 - **JavaScript (ES6)**
+
+* Catatan
+- **Ini bukan project resmi Netflix** 
+- Semua aset gambar/video bersumber dari [Pinterest](https://id.pinterest.com/).
+- Kalau ada yang punya hak cipta atas aset tertentu dan ingin dihapus, silakan hubungi saya.
+
+* Kontak
+- email: shafaaura35@gmail.com
+- instagram: shfwra_
