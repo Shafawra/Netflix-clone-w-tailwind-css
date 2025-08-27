@@ -31,4 +31,4 @@ Project ini dibuat untuk melatih skill **HTML, CSS, dan JavaScript** dengan memb
 
 ## Kontak
 - email: shafaaura35@gmail.com
-- instagram: [shfwra_](https://www.instagram.com/shfwra_/?next=%2F).
+- instagram: [shfwra_](https://www.instagram.com/shfwra_/?next=%2F)
