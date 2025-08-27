@@ -19,7 +19,7 @@ Project ini dibuat untuk melatih skill **HTML, CSS, dan JavaScript** dengan memb
 - **CSS3**
 - **JavaScript (ES6)**
 
-*Preview
+* Preview
 - [Halaman Utama](https://github.com/Shafawra/Netflix-clone-w-tailwind-css/issues/2)
 - [Main](https://github.com/Shafawra/Netflix-clone-w-tailwind-css/issues/3)
 - [Footer](https://github.com/Shafawra/Netflix-clone-w-tailwind-css/issues/4)
